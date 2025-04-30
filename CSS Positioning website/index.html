@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning Explanation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>CSS Positioning Demo</h1>
+    </header>
+    <main >
+        <div id="main-container">
+            <div class="buttons">
+                <button id="static-btn" onclick="static()">Static Positioning</button>
+                <button id="relative-btn" onclick="relative()">Relative Positioning</button>
+                <button id="absolute-btn" onclick="absolute()">Absolute Positioning</button>
+                <button id="fixed-btn" onclick="fixed()">Fixed Positioning</button>
+            </div>
+            <div class="display-card">
+                <h2 class="card-title"> Static Positioning</h2>
+                <code>
+                    position: static;
+                    <br>
+                    left: 50px;
+                    <br>
+                    top: 50px;
+                </code>
+                <div id="display-box">
+                    <p>Scroll to see full effect!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>Bamidele Oluwatosin [paradoxical] (2025). Recreated and enhanced from the original source: <a href="https://appbrewery.github.io/css-positioning/">https://appbrewery.github.io/css-positioning/</a></footer>
+
+    <!--Script file link-->
+    <script src="./script.js"></script>
+</body>
+</html>
